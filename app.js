@@ -154,7 +154,7 @@ if(req.body.password1 == req.body.password2) {
   const output = `
     <p>We have recieved your message at ${new Date(Date.now()).toLocaleString()}</p>
     <p>Your one time code is: ${code}</p>
-    <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udgosh core team*</p>`
+    <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udghosh core team*</p>`
  
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
@@ -344,7 +344,7 @@ app.post('/6a9e12b1307853e8776aaa71549687d7', function(req,res){
   const output = `
     <p>We have recieved your message at ${new Date(Date.now()).toLocaleString()}</p>
     <p>Your one time code is: ${code}</p>
-    <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udgosh core team*</p>`
+    <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udghosh core team*</p>`
  
   let transporter = nodemailer.createTransport({
     host: 'smtp.gmail.com',
@@ -463,7 +463,7 @@ app.post('/6d932840157263669f6f378fa14ee190', function(req,res,next){
       const output = `
         <p>We have recieved your message at ${new Date(Date.now()).toLocaleString()}</p>
         <p>Your one time code is: ${code}</p>
-        <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udgosh core team*</p>`
+        <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udghosh core team*</p>`
    
       let transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
@@ -638,7 +638,7 @@ app.post('/6d932840157263669f6f378fa14ee190', function(req,res,next){
     const output = `
       <p>We have recieved your message at ${new Date(Date.now()).toLocaleString()}</p>
       <p>Your one time code is: ${code}</p>
-      <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udgosh core team*</p>`
+      <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udghosh core team*</p>`
  
     let transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com',
@@ -1069,7 +1069,7 @@ app.post("/c9d3bd7a2d649424b8296368c82d5fe2fr",function(req,res){
     <tr><th>Email</th><td> ${req.body.email}</td></tr>
     <tr><th>Message</th><td> ${req.body.message}</td></tr>
   </table>
-  <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udgosh core team*</p>
+  <p>*This is an automatically generated mail. Please do not reply. For any further queries contact Udghosh core team*</p>
  `;
  let transporter = nodemailer.createTransport({
   host: 'smtp.gmail.com',
